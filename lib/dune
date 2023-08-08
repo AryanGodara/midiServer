@@ -1,0 +1,12 @@
+(library
+ (name midiServer)
+ (libraries
+  logs
+  portmidi
+  runtime_events
+  logs.lwt
+  lwt
+  stdio
+  lwt.unix
+  str
+  unix))
